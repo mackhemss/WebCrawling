@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "WebCrawling/1.0.0": {
+        "dependencies": {
+          "CsvHelper": "31.0.4",
+          "HtmlAgilityPack": "1.11.60",
+          "HtmlAgilityPack.CssSelectors.NetCore": "1.2.1"
+        },
+        "runtime": {
+          "WebCrawling.dll": {}
+        }
+      },
+      "CsvHelper/31.0.4": {
+        "runtime": {
+          "lib/net7.0/CsvHelper.dll": {
+            "assemblyVersion": "31.0.0.0",
+            "fileVersion": "31.0.4.18"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.60": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.60.0",
+            "fileVersion": "1.11.60.0"
+          }
+        }
+      },
+      "HtmlAgilityPack.CssSelectors.NetCore/1.2.1": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.60"
+        },
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.CssSelectors.NetCore.dll": {
+            "assemblyVersion": "1.2.1.0",
+            "fileVersion": "1.2.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebCrawling/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsvHelper/31.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m4ikjUAn4XOD1tShxxk4ui42sHxjHdX52P7fPQ9K7tzJkPTEwiCbvEz3k73mTGSSaPTUCOp9VziQC757IqKLew==",
+      "path": "csvhelper/31.0.4",
+      "hashPath": "csvhelper.31.0.4.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.60": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7Uzaf1Mxeuxne33LpTZfSsuRW4sRRX6FWMolOSxXcaAwcKvFevH2E+P6tb4dMWhdyUdBfi0N0yyPZ8hqodfEYg==",
+      "path": "htmlagilitypack/1.11.60",
+      "hashPath": "htmlagilitypack.1.11.60.nupkg.sha512"
+    },
+    "HtmlAgilityPack.CssSelectors.NetCore/1.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ES2Ht+wpgaLmyyyCP9cl3AT5U2BtTOCZ2pdFL8GYa27V8IAD9U77KOcuvi61k+nDE4kpU+EjwaBJepVFqLpmGA==",
+      "path": "htmlagilitypack.cssselectors.netcore/1.2.1",
+      "hashPath": "htmlagilitypack.cssselectors.netcore.1.2.1.nupkg.sha512"
+    }
+  }
+}
